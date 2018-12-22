@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/go-gl/gl/v4.5-core/gl"
+import "github.com/go-gl/gl/v4.1-core/gl"
 
 // ToggleWireframe toggles between LINE and FILL
 func ToggleWireframe() {

@@ -12,7 +12,7 @@ import (
 	r "github.com/derekmwright/aegis/renderer"
 	"github.com/derekmwright/aegis/utils"
 
-	"github.com/go-gl/gl/v4.5-core/gl"
+	"github.com/go-gl/gl/v4.1-core/gl"
 	"github.com/go-gl/glfw/v3.2/glfw"
 )
 
@@ -34,7 +34,7 @@ func main() {
 
 	glfw.WindowHint(glfw.Resizable, glfw.False)
 	glfw.WindowHint(glfw.ContextVersionMajor, 4)
-	glfw.WindowHint(glfw.ContextVersionMinor, 5)
+	glfw.WindowHint(glfw.ContextVersionMinor, 1)
 	glfw.WindowHint(glfw.OpenGLProfile, glfw.OpenGLCoreProfile)
 	glfw.WindowHint(glfw.OpenGLForwardCompatible, glfw.True)
 
@@ -128,7 +128,7 @@ func main() {
 }
 
 var vertexShader = `
-#version 450
+#version 410
 layout(location = 0) in vec3 vertex_pos;
 layout(location = 1) in vec3 vertex_rgb;
 
@@ -140,7 +140,7 @@ void main() {
 }` + "\x00"
 
 var fragmentShader = `
-#version 450
+#version 410
 in vec3 color;
 out vec4 frag_color;
 
