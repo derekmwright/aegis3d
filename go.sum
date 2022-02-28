@@ -1,0 +1,6 @@
+github.com/derekmwright/aegis v0.0.0-20181222224610-4014deb96547 h1:87Ofb6Q0pmZvjoRJaWmH0Kjy0tqWPJm5pT62sxRqNXY=
+github.com/derekmwright/aegis v0.0.0-20181222224610-4014deb96547/go.mod h1:69YBF3pyycMObyO1Rw3M+gbCu8mzawLqHq3UjzwtT4Q=
+github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6 h1:zDw5v7qm4yH7N8C8uWd+8Ii9rROdgWxQuGoJ9WDXxfk=
+github.com/go-gl/gl v0.0.0-20211210172815-726fda9656d6/go.mod h1:9YTyiznxEY1fVinfM7RvRcjRHbw2xLBJ3AAGIT0I4Nw=
+github.com/go-gl/glfw v0.0.0-20211213063430-748e38ca8aec h1:um18JldLG6QwC9tj6mSfQnb+kor5aezfPPtq1GmHek0=
+github.com/go-gl/glfw v0.0.0-20211213063430-748e38ca8aec/go.mod h1:vR7hzQXu2zJy9AVAgeJqvqgH9Q5CA+iKCZ2gyEVpxRU=
