@@ -8,9 +8,9 @@ package main
 import (
 	"runtime"
 
-	"github.com/derekmwright/aegis/input"
-	r "github.com/derekmwright/aegis/renderer"
-	"github.com/derekmwright/aegis/utils"
+	"github.com/derekmwright/aegis3d/input"
+	r "github.com/derekmwright/aegis3d/renderer"
+	"github.com/derekmwright/aegis3d/utils"
 
 	"github.com/go-gl/gl/v4.1-core/gl"
 	"github.com/go-gl/glfw/v3.2/glfw"

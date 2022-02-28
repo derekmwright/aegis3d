@@ -20,7 +20,8 @@ func Process(
 		event = "Pressed"
 	case glfw.Release:
 		event = "Released"
+	case glfw.Repeat:
+		event = "Repeated"
 	}
-	fmt.Println("Action: " + event)
-	return
+	fmt.Printf("Action: %s, %#v\n", event, action)
 }

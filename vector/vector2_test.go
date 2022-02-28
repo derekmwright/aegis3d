@@ -1,4 +1,4 @@
-package math
+package vector_test
 
 import (
 	"testing"
